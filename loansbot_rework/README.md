@@ -2,8 +2,8 @@
 
 New infrastructure layout: ![Picture for Infra](infra.png)
 
-- Nginx reverse proxy: a1.medium (3yr reserved, no upfront, convertible): $9.28/mo
-- FastAPI: t3a.small (3yr reserved, no upfront, convertible): $6.87/mo
+- Nginx reverse proxy + frontend (React): a1.medium (3yr reserved, no upfront, convertible): $9.28/mo
+- Website backend (FastAPI): t3a.small (3yr reserved, no upfront, convertible): $6.87/mo
 - Postgres: m5a.large (3yr reserved, no upfront, convertible): $31.39/mo
 - LoansBot + RabbitMQ + Reddit Proxy: a1.medium (3yr reserved, no upfront, convertible): $9.28/mo
 
