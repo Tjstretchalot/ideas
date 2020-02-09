@@ -8,6 +8,7 @@ New infrastructure layout: ![Picture for Infra](infra.png)
 - LoansBot + RabbitMQ + Reddit Proxy: a1.medium (3yr reserved, no upfront, not dedicated, convertible): $10.37/mo
 
 Backups: S3 Standard - Infrequent Access
+
 - Daily via cronjob
 - Assuming ~128mb/backup (current: 76mb)
 - 365 day lifetime

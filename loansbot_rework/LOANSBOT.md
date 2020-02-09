@@ -1,5 +1,8 @@
 # LoansBot
 
+The loansbot will be rewritten in python using pydantic, the RabbitMQ
+client, and psycopg2 + PyPika.
+
 The existing LoansBot implementation has the following advantages:
 
 - Modular "summons" and a sophisticated query parsing and detection system
