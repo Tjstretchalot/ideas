@@ -1,7 +1,7 @@
 # Reddit Proxy
 
 This server will specifically be intended to accept from incoming queues,
-process requests, and responds using the RPC pattern. It is built in
+process requests, and responds using a response queue. It is built in
 python and uses the requests library.
 
 The messages have a special mapping to reddit API endpoints, so that if the
