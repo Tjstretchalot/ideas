@@ -28,11 +28,14 @@ vertically scaling.
 
 ---
 
-The following repositories:
+The following repositories will exist:
 
+- LoansBot/infrastructure
 - LoansBot/reverse-proxy
 - LoansBot/web-frontend
 - LoansBot/web-backend
 - LoansBot/database
 - LoansBot/amqp
 - LoansBot/reddit-proxy
+- LoansBot/reddit-proxy-client
+- LoansBot/logging

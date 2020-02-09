@@ -9,4 +9,10 @@ accepted for the latest stable Firefox and latest stable Microsoft Edge.
 This uses React as described [here](https://medium.com/@chrislewisdev/react-without-npm-babel-or-webpack-1e9a6049714).
 
 The front-end is served directly from Nginx and corresponds to everything not
-in /api/.
+in /api/, except for /deploy.php.
+
+- Continuous deployment via a GitHub webhook to /deploy.php
+  - Secured through [this approach](https://developer.github.com/webhooks/securing/)
+- Automated testing (using MochaJS) via GitHub Actions
+  - Testing will be fairly limited compare to the backend, but enough
+    to be useful
