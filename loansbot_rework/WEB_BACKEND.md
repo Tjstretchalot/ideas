@@ -39,8 +39,10 @@ Deprecation warnings:
     include a "deprecation_warning_heard=true" query parameter.
   - Starting 01/01/2023 this endpoint will 404.
   - Starting 03/01/2023 this endpoint will be considered ready for reuse.
+- The `/api/log` endpoint is only for moderators, but it will be moved
+  to `/api/ops/log`.
 
-Additional features of the web backend:
+Additional features/changes to the web backend:
 
 - GitHub actions for automated testing
 - AWS CodePipeline for continuous deployment
@@ -49,3 +51,5 @@ Additional features of the web backend:
   `/api/docs/openapi.json`.
 - GraphQL backend served under `/api/graphql/users` and `/api/graphql/loans`
   which will hopefully allow easier third-party integration.
+- `/api/log/` will be moved to `/api/ops/log`, and there will be new endpoints
+  for monitoring: `/api/ops/health` w

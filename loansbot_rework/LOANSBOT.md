@@ -52,3 +52,7 @@ The following new features will be added upon rework:
   actually want to hold a record for. This means we send out account
   claim requests / notifications quicker and they don't need to clutter
   the loansbot code.
+- Improve the handling for deleted users and moderators. Currently adding and
+  removing moderators can only be done by modifying the database, and deleted
+  user handling is automatic but requires a lot of replicated logic as it was
+  added late.
