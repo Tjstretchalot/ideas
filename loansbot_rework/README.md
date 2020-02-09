@@ -15,3 +15,14 @@ Backups: S3 Standard - Infrequent Access
 - 46.08gb * 0.0125gb/mo = ~0.58$ / mo
 
 Net total price (monthly): $60.89/mo
+
+---
+
+The following repositories:
+
+- LoansBot/reverse-proxy
+- LoansBot/web-frontend
+- LoansBot/web-backend
+- LoansBot/database
+- LoansBot/amqp
+- LoansBot/reddit-proxy
