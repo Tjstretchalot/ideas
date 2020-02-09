@@ -52,4 +52,4 @@ Additional features/changes to the web backend:
 - GraphQL backend served under `/api/graphql/users` and `/api/graphql/loans`
   which will hopefully allow easier third-party integration.
 - `/api/log/` will be moved to `/api/ops/log`, and there will be new endpoints
-  for monitoring: `/api/ops/health` w
+  for monitoring: `/api/ops/health`
